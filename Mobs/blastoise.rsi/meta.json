@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "size": {
+    "x": 166,
+    "y": 149
+  },
+  "states": [
+    {
+      "name": "test",
+      "directions": 1,
+      "delays": [
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    }
+  ]
+}

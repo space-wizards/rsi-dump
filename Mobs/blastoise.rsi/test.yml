@@ -1,0 +1,17 @@
+- type: entity
+  name: Piano Test
+  parent: BaseItem
+  id: pianotest
+  components:
+  - type: Sprite
+    sprite: Objects/test.rsi
+    state: test
+
+  - type: Icon
+    sprite: Objects/test.rsi
+    state: test
+
+  - type: Item
+    Size: 40
+    sprite: Objects/test.rsi
+    state: test
