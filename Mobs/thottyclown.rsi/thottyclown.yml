@@ -1,0 +1,81 @@
+- type: entity
+  save: false
+  name: Thotty Clown
+  id: thotty_clown
+  description: Thicc
+  drawdepth: Mobs
+  components:
+  - type: Mind
+    show_examine_info: true
+  - type: Hands
+    hands:
+    - left
+    - right
+  - type: MovementSpeedModifier
+  - type: Hunger
+  - type: Thirst
+  # Organs
+  - type: Solution
+    maxVol: 250
+    caps: 32
+  - type: Bloodstream
+    max_volume: 100
+  - type: Stomach
+    max_volume: 250
+    digestionDelay: 20
+  - type: Inventory
+  - type: Constructor
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Sprite
+    netsync: false
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.HumanoidVisualLayers.Chest"]
+      sprite: Mob/thottyclown.rsi
+      state: c_thicc
+  - type: Icon
+    sprite: Mob/thottyclown.rsi
+    state: icon
+  - type: Physics
+    mass: 85
+  - type: Collidable
+    shapes:
+    - !type:PhysShapeAabb
+      bounds: "-0.35,-0.35,0.35,0.35"
+      mask:
+      - Impassable
+      - MobImpassable
+      - VaultImpassable
+      - SmallImpassable
+      layer:
+      - Opaque
+      - MobImpassable
+  - type: Input
+    context: "human"
+  - type: Species
+    Template: Human
+    HeatResistance: 323
+  - type: BodyManager
+    BaseTemplate: bodyTemplate.Humanoid
+    BasePreset: bodyPreset.BasicHuman
+
+  - type: StatusEffectsUI
+  - type: OverlayEffectsUI
+  - type: HeatResistance
+  - type: Damageable
+  - type: Eye
+    zoom: 0.5, 0.5
+  - type: CameraRecoil
+  - type: Appearance
+    visuals:
+    - type: SpeciesVisualizer2D
+  - type: CombatMode
+  - type: Teleportable
+  - type: Examiner
+  - type: CharacterInfo
+  - type: FootstepSound
+  - type: HumanoidAppearance
+  - type: HumanInventoryController
+  - type: Stunnable
+  - type: AnimationPlayer

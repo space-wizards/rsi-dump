@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "size": {
+    "x": 288,
+    "y": 288
+  },
+  "license": "CCBYNA3",
+  "copyright": "https://github.com/tgstation/tgstation",
+  "states": [
+    {
+      "name": "singularity",
+      "directions": 1,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    }
+  ]
+}

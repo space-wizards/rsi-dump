@@ -1,0 +1,47 @@
+﻿{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from https://github.com/Baystation12/Baystation12",
+  "states": [
+        {
+            "name": "icon",
+            "select": [],
+            "flags": {},
+            "directions": 1,
+            "delays": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "name": "flareon",
+            "select": [],
+            "flags": {},
+            "directions": 1,
+            "delays": [
+                [
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1
+                ]
+            ]
+        },
+        {
+            "name": "flareburnt",
+            "select": [],
+            "flags": {},
+            "directions": 1,
+            "delays": [
+                [
+                  1
+                ]
+            ]
+        }
+    ]
+}

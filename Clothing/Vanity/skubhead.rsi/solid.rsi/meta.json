@@ -1,0 +1,299 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from https://github.com/discordia-space/CEV-Eris/blob/c34c1b30abf18aa552e19294523924c39e5ea127/icons/turf/wall_masks.dmi and modified.",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "fullmetal",
+      "select": [],
+      "flags": {},
+      "directions": 1
+    },
+    {
+      "name": "metal0",
+      "select": [],
+      "flags": {},
+      "directions": 4
+    },
+    {
+      "name": "metal1",
+      "select": [],
+      "flags": {},
+      "directions": 4
+    },
+    {
+      "name": "metal2",
+      "select": [],
+      "flags": {},
+      "directions": 4
+    },
+    {
+      "name": "metal3",
+      "select": [],
+      "flags": {},
+      "directions": 4
+    },
+    {
+      "name": "metal4",
+      "select": [],
+      "flags": {},
+      "directions": 4
+    },
+    {
+      "name": "metal5",
+      "select": [],
+      "flags": {},
+      "directions": 4
+    },
+    {
+      "name": "metal6",
+      "select": [],
+      "flags": {},
+      "directions": 4
+    },
+    {
+      "name": "metal7",
+      "select": [],
+      "flags": {},
+      "directions": 4
+    },
+    {
+      "name": "reinf_construct-0",
+      "directions": 1,
+      "delays": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "reinf_construct-1",
+      "directions": 1,
+      "delays": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "reinf_construct-2",
+      "directions": 1,
+      "delays": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "reinf_construct-3",
+      "directions": 1,
+      "delays": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "reinf_construct-4",
+      "directions": 1,
+      "delays": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "reinf_construct-5",
+      "directions": 1,
+      "delays": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "reinf_cult",
+      "directions": 1,
+      "delays": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "reinf_metal",
+      "directions": 1,
+      "delays": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "r",
+      "directions": 1,
+      "delays": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "r0",
+      "directions": 4,
+      "delays": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "r1",
+      "directions": 4,
+      "delays": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "r2",
+      "directions": 4,
+      "delays": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "r3",
+      "directions": 4,
+      "delays": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "r4",
+      "directions": 4,
+      "delays": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "r5",
+      "directions": 4,
+      "delays": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "r6",
+      "directions": 4,
+      "delays": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "r7",
+      "directions": 4,
+      "delays": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "fullr",
+      "directions": 1,
+      "delays": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
+}
