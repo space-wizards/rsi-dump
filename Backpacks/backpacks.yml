@@ -1,0 +1,43 @@
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackVirology
+  name: virology backpack
+  description: A backpack made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Backpacks/virology.rsi
+  - type: Clothing
+    sprite: Clothing/Back/Backpacks/virology.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackToxins
+  name: toxins backpack
+  description: It's a backpack especially designed for use in a sterile environment.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Backpacks/toxins.rsi
+  - type: Clothing
+    sprite: Clothing/Back/Backpacks/toxins.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackGenetics
+  name: genetics backpack
+  description: A bag designed to be super tough, just in case someone hulks out on you.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Backpacks/genetics.rsi
+  - type: Clothing
+    sprite: Clothing/Back/Backpacks/genetics.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackExplorer
+  name: explorer bag
+  description: A robust backpack for stashing your loot.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Backpacks/explorer.rsi
+  - type: Clothing
+    sprite: Clothing/Back/Backpacks/explorer.rsi
